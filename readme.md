@@ -25,7 +25,9 @@ Enter file name with extension: trees.csv
 ```
 => Create the index pattern in "Stack Management"
 
-
+```bash
+python app.py
+```
 
 
 # Ingestion of data
