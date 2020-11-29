@@ -4,6 +4,9 @@
 > json
 > pandas
 > elasticsearch 
+> flask 
+> requests
+> json2html
 ```
 
 # Installation example
