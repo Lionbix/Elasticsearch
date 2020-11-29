@@ -5,6 +5,8 @@ ES must be on port 9200 & Kibana on port 5601
 ./elasticsearch
 ./bin/kibana
 python Ingestion_of_data.py
+Enter index name: tree
+Enter file name with extension: trees.csv
 ```
 => Create the index pattern in "Stack Management"
 
