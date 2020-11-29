@@ -4,7 +4,9 @@ Launch the python file in the same directory as trees.csv. This will convert csv
 ![](overview.png)
 
 # Input example
+```shell
+index name = trees
+filename = trees.csv
+```
+# Queries
 
-> index name = index
-
-> filename = trees.csv
