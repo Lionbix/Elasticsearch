@@ -10,3 +10,10 @@ filename = trees.csv
 ```
 # Queries
 
+
+# Librairies
+*csv
+*json
+*pandas
+*elasticsearch 
+
