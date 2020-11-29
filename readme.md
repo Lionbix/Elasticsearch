@@ -11,7 +11,11 @@ ES must be on port 9200 & Kibana on port 5601
 
 ```bash
 ./elasticsearch
+```
+```bash
 ./bin/kibana
+```
+```bash
 python Ingestion_of_data.py
 Enter index name: tree
 Enter file name with extension: trees.csv
