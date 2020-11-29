@@ -6,4 +6,5 @@ Launch the python file in the same directory as trees.csv. This will convert csv
 # Input example
 
 > index name = index
+
 > filename = trees.csv
