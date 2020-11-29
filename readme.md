@@ -1,3 +1,11 @@
+# Librairies
+```python
+> csv
+> json
+> pandas
+> elasticsearch 
+```
+
 # Installation example
 ES must be on port 9200 & Kibana on port 5601
 
@@ -18,19 +26,6 @@ Launch the python file in the same directory as trees.csv. This will convert you
 
 ![](overview.png)
 
-# Input example
-```shell
-index name = trees
-filename = trees.csv
-```
 # Queries
 
-
-# Librairies
-```python
-> csv
-> json
-> pandas
-> elasticsearch 
-```
 
