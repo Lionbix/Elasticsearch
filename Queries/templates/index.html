@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			html {
+			  	margin: 0;
+			  	padding: 0;
+			}
+
+			body {
+			  	font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			  	background-color: #f2f2f2;
+				margin: 0;
+				padding: 0;
+			}
+
+
+			#top{
+			    width: 100%;
+			    position: relative;
+			    height: 250px;
+			    background-image: url("https://zupimages.net/up/20/46/v08s.jpg");
+			    -webkit-box-shadow: 0 8px 6px -6px black;
+			     -moz-box-shadow: 0 8px 6px -6px black;
+			          box-shadow: 0 8px 6px -6px black;
+			}
+
+			#title { 
+				font-size: 4.5rem;letter-spacing: -.1rem;
+			 	position: absolute;
+			 	width: 613px;
+			 	height: 100px;
+			  	top: 50%;
+			  	left: 50%;
+			  	transform: translate(-50%, -50%);
+			  }
+
+			#container{
+				position: relative;
+				width: 100%;
+				height: 600px;
+			}
+
+			#form{
+				position: relative;
+			 	width: 500px;
+			 	height: 600px;
+			 	box-shadow: 1px 1px 12px #555;
+				background: white;
+				margin: auto;
+				top: 100px;
+			}
+
+			#data{
+				width: 400px;
+				height: 100%;
+				position: absolute;
+				height: 50px;
+			  	top: 30%;
+			  	left: 50%;
+			  	transform: translate(-50%, -50%);
+
+			}
+
+			.button{
+				width: 392px;
+				height: 25px;
+				position: relative;
+				text-align: center;
+			}
+
+			button{
+				background: white;
+				width: 400px;
+				height: 50px;
+				border: 1px solid black;
+				position: relative;
+				top: 20px;
+			}
+
+			button:hover{
+				background-color: #eb4d4b;
+				transition: background-color .7s;
+				cursor: pointer;
+			}
+
+			#result{
+				text-align: center;
+				position: relative;
+    			top: 380px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<center>
+			<div id="top">
+				<div id="title">ES Request </div>
+			</div>
+		</center>
+		<div id="container">
+			<div id="form">
+				 <div id="data">
+				 	<form method="POST" action="">
+					    <center>
+					    <H4>SEARCH RESULT </H4>
+					    Query<input type = "text" name = "queryInput" /> <br>
+					    <input type="hidden" name="form_type" value="get_query"/>
+					    <input type = "submit">
+					    <br><br>
+					    </center>
+					</form>
+
+					<form method="POST" action="">
+					    <center>
+					    <H4>Show Index </H4>
+					    <input type="hidden" name="form_type" value="get_index"/>
+					    <input type = "submit">
+					    <br><br>
+					    </center>
+					</form>
+
+					<form method="POST" action="">
+					    <center>
+					    <H4>Show Index Labels</H4>
+					    Name Index <input type = "text" name = "nameIndex" /> <br>
+					    <input type="hidden" name="form_type" value="get_labels"/>
+					    <input type = "submit">
+					    </center>
+					</form>
+				 </div>
+			</div>
+		</div>
+
+	</body>
+</html>
