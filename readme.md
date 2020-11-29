@@ -39,8 +39,14 @@ Launch the python file in the same directory as the folder templates. This will 
 
 ![](overview2.png)
 
+When you click on the Show Index Button, it list you all the indexes that exist on ElasticSearch.
+
 ![](overview3.png)
 
+When you enter the name of an Index, it show you all the labels of the index.
+
 ![](overview4.png)
+
+When you post a query like: "SELECT * FROM trees WHERE ARRONDISSEMENT = 16".
 
 ![](overview5.png)
